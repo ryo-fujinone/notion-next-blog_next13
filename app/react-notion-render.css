@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul.rnr-bulleted_list_item {
+    @apply pl-4 list-disc;
+}
+
+ol.rnr-numbered_list_item {
+    @apply pl-4 list-decimal;
+}
